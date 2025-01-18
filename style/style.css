@@ -78,6 +78,9 @@ padding-top: 25px;
   .nav-title{
     text-align: center;
   }
+  .nav-links{
+    text-align: center;
+  }
    .navbar, .nav-link{
     flex-direction: column;
    }
