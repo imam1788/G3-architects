@@ -116,6 +116,7 @@ main > section{
   color: rgb(114, 114, 114);
   margin: 24px 0 32px;
 }
+
 /* fact section style */
 .fact-title{
   font-size: 30px;
@@ -132,17 +133,18 @@ main > section{
 .facts-container{
 display: grid;
 grid-template-columns: repeat(4, 1fr);
+gap: 50px;
 }
 .fact-card{
-  width: 160px;
-  height: 160px;
+  /* width: 160px;
+  height: 160px; */
   text-align: center;
   border: 1px solid rgb(255, 144, 14);
   border-radius: 8px;
-  margin-left: 50px;
+  margin-left: 30px;
 }
 .fact-card > div{
-  margin: 35px 24px 60px;
+  margin: 25px 15px 40px;
 }
 .fact-icon{
   width: 30px;
@@ -162,7 +164,7 @@ grid-template-columns: repeat(4, 1fr);
   margin: 5px 0 0;
 }
   
-/* responsive media query */
+/* responsive media query for mobile */
 @media screen and (max-width: 576px) {
   .nav-title{
     text-align: center;
@@ -184,5 +186,10 @@ grid-template-columns: repeat(4, 1fr);
    .our-features{
     margin-left: 5px;
    }
+   .facts-container{
+    grid-template-columns: repeat(2, 1fr);
+   }
+  }
 
+ 
 
