@@ -116,6 +116,52 @@ main > section{
   color: rgb(114, 114, 114);
   margin: 24px 0 32px;
 }
+/* fact section style */
+.fact-title{
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+}
+.fact-description{
+  color: rgb(114, 114, 114);
+  font-size: 12px;
+  font-weight: 400;
+  margin: 24px 0 80px;
+  width: 440px;
+}
+.facts-container{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+}
+.fact-card{
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  border: 1px solid rgb(255, 144, 14);
+  border-radius: 8px;
+  margin-left: 50px;
+}
+.fact-card > div{
+  margin: 35px 24px 60px;
+}
+.fact-icon{
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+.card-number{
+  color: rgb(66, 66, 66);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 10px 0 0;
+}
+.card-title{
+  color: rgb(114, 114, 114);
+  font-size: 10px;
+  font-weight: 600;
+  margin: 5px 0 0;
+}
+  
 /* responsive media query */
 @media screen and (max-width: 576px) {
   .nav-title{
@@ -138,5 +184,5 @@ main > section{
    .our-features{
     margin-left: 5px;
    }
-   
-}
+
+
